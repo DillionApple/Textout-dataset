@@ -1,6 +1,6 @@
-# Texout-dataset
+# Textout-dataset
 
-This repo contains the dataset used in Texout.
+This repo contains the dataset used in Textout.
 
 ## Dataset Releases
 
