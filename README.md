@@ -8,7 +8,7 @@ We mainly employ CNN for the image classification tasks. CNN has been proved to 
 
 We address the challenges of text-layout bug detection as follows. To overcome the lack of abnormal data, we find a way to generate artificial abnormal data manually. We also use text detection to minimize the possibility of distraction on screenshots. This prompts the CNN to focus on text regions and reduces the risk of overfitting. It also helps us to locate the text-layout bug areas.
 
-We propose Textout, an efficient tool to detect text-layout bugs, which is based on text detection technology and CNN. The repo contains the releases of the training dataset and the test dataset used in Textout, to facilitate future researches.
+We propose Textout, an efficient tool to detect text-layout bugs, which is based on text detection technology and CNN. The repo contains the releases of the training dataset and the test dataset used in Textout, to facilitate future researches. And we will continuously enhance the dataset in the future.
 
 ## Dataset Releases
 
@@ -16,6 +16,16 @@ We propose Textout, an efficient tool to detect text-layout bugs, which is based
 
 [download](https://mega.nz/#!ClNVDQQK!d6nC874iA4TFRKZkTbDT2_DuZOb7j4W331bV7a-RZPY)
 
-* training: 580 normal screenshots, 33102 text-region images (16551 normal text-region images and 16551 abnormal ones)
+* training:
+    * 580 normal screenshots
+    * 33102 text-region images
+        * 16551 normal text-region images
+        * 16551 abnormal text-region images
 
-* testing: 59 screenshots (38 normal screenshots and 21 abnormal ones), 1481 text-region images (1405 normal text-region images and 76 abnormal ones)
+* testing:
+    * 59 screenshots
+        * 38 normal screenshots
+        * 21 abnormal screenshots
+    * 1481 text-region images
+        * 1405 normal text-region images
+        * 76 abnormal text-region images
